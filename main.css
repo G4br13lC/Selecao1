@@ -1,0 +1,20 @@
+* {
+    width: 1366px;
+    margin: 0 auto;
+}
+header li {
+    display: inline;
+}
+.conteiner {
+    width: 1366px;
+    margin: 100 auto;
+}
+h1 {
+    color: yellowgreen;
+}
+h2 {
+    color: gold;
+}
+.subtitulos {
+    color: #ccc;
+}

@@ -1,0 +1,9 @@
+* {
+    width: 1366px;
+    margin: 0 auto;
+}
+.img-DT{
+    height: 200px;
+    width: 18%;
+    position: center bottom;
+}
