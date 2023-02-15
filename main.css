@@ -2,6 +2,12 @@
     width: 1366px;
     margin: 0 auto;
 }
+header{
+    background-color: blue;
+}
+header.conteiner{
+    display: flex;
+}
 header li {
     display: inline;
 }
@@ -17,4 +23,13 @@ h2 {
 }
 .subtitulos {
     color: #ccc;
+}
+.invest{
+    background-color: rgb(86, 11, 136);
+}
+.relat{
+    background-color: blueviolet;
+}
+.cons{
+    background-color: burlywood;
 }
