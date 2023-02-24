@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/*==============================*/
+
 /*Margem Padrão*/
 .cab, .nv, header, h2 {
     max-width: 1280px;
@@ -12,56 +14,139 @@
     margin: 0 auto;
 }
 
+/*==============================*/
+
+/*Margem althead*/
+.f-h1 {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+/*==============================*/
+
 /*Margem Espec*/
 .dspmac {
     margin: 0 0 0 140px;
 
-}  
+}
+
+/*==============================*/
+
+/*Custom margin h1 */
+
+.f-h1 {
+    max-width: 1280px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/*==============================*/
+
+/*Custom margin f-subhead */
+
+.f-subhead {
+    max-width: 1280px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+/*==============================*/
+
 
 /*Fontes 'Raleway'*/
 .f-h1 {
     font-family: 'Raleway'
 }
 
+/*==============================*/
+
 /*Fontes 'Raleway', sans-serif*/
-.f-subhead, body {
+.f-subhead, body, .button:hover {
     font-family: 'Raleway', sans-serif;
 }
+
+/*==============================*/
 
 /*Cor de fonte  rgb(175, 140, 26) */
 .cab, .nv {
     color:  rgb(175, 140, 26);
 }
 
+/*==============================*/
+
 /*Fonte 50px*/
 .cab {
     font-size: 50px
 }
 
+/*==============================*/
+
 /*Cor de letra aliceblue*/
-.h2 {
+.h2, .button:hover {
     color: aliceblue;
 }
 
-/*Fonte 25px*/
+/*==============================*/
+
+/*Fonte 50px*/
 .h2 {
     font-size: 50px
 }
+
+/*==============================*/
+
+/*Fonte botões*/
+section.nv button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(175, 140, 26);
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*==============================*/
+
+
 /*Fonte 30px*/
 .nv {
     font-size: 30px;
 }
+
+/*==============================*/
 
 /*Cor Bckgrd aliceblue*/
 . {
     background-color: aliceblue;
 }
 
+/*==============================*/
+
 /*Cor Bckgrd rgb(175, 140, 26)*/
 
 .grd {
     background-color: rgb(175, 140, 26);
+    height: 150px;
 }
+
+/*==============================*/
+
+/*Custom BCKGRD rgb em h2*/
+
+.grd {
+    height: 900px;
+}
+
+/*==============================*/
+
+/*Custom BCKGRD marg em h2*/
+
+.h2 {
+    margin-top: 20px;
+}
+
+/*==============================*/
+
 
 /*Display 1*/
 .dspmac {
@@ -70,20 +155,28 @@
     justify-content: space-between;
 }
 
+/*==============================*/
+
 /*Display 2*/
 . {
 
 }
+
+/*==============================*/
 
 /*Padding 30*/
 .nv {
     padding: 30px 0;
 }
 
+/*==============================*/
+
 /*Padding 2*/
 . {
 
 }
+
+/*==============================*/
 
 /*Imagens*/
 .imgmac img {
