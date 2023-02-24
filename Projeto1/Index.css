@@ -1,63 +1,91 @@
+/* Padrão Config*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header {
-    padding: 30px 0;
-    background-color: aliceblue;
-    color:  rgb(175, 140, 26);
-    font-size: 50px;
+
+/*Margem Padrão*/
+.cab, .nv, header, h2 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.f-h1  {
+/*Margem Espec*/
+.dspmac {
+    margin: 0 0 0 140px;
+
+}  
+
+/*Fontes 'Raleway'*/
+.f-h1 {
     font-family: 'Raleway'
 }
 
-.f-subhead {
+/*Fontes 'Raleway', sans-serif*/
+.f-subhead, body {
     font-family: 'Raleway', sans-serif;
 }
-body {
-    font-family: 'Raleway', sans-serif;
-}
 
-.cab{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.h2 {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0px 0;
-    color: aliceblue;
-    font-size: 25px;
-}
-
-.bckh2 {
-    background-color: rgb(175, 140, 26);
-    height: 1000px;
-}
-.nv {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 30px 0;
-    font-size: 30px;
+/*Cor de fonte  rgb(175, 140, 26) */
+.cab, .nv {
     color:  rgb(175, 140, 26);
-    bot
 }
 
-.imgmac img {
-    height: 1000px;
+/*Fonte 50px*/
+.cab {
+    font-size: 50px
 }
 
+/*Cor de letra aliceblue*/
+.h2 {
+    color: aliceblue;
+}
+
+/*Fonte 25px*/
+.h2 {
+    font-size: 50px
+}
+/*Fonte 30px*/
+.nv {
+    font-size: 30px;
+}
+
+/*Cor Bckgrd aliceblue*/
+. {
+    background-color: aliceblue;
+}
+
+/*Cor Bckgrd rgb(175, 140, 26)*/
+
+.bck2 {
+    color: rgb(175, 140, 26);
+}
+
+/*Display 1*/
 .dspmac {
-
-    margin: 0 0 0 140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}  
+}
+
+/*Display 2*/
+. {
+
+}
+
+/*Padding 30*/
+.nv {
+    padding: 30px 0;
+}
+
+/*Padding 2*/
+. {
+
+}
+
+/*Imagens*/
+.imgmac img {
+    height: 1000px;
+}
