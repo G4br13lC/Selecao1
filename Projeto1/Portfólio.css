@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BCKGRD Cab */
+.cab {
+    margin: o auto;
+    background-color: rgb(175, 140, 26);
+    height: 250px;
+}
+
+/* Margem Cab */
+.f-h1, .f-subhead {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 50px;
+}
